@@ -1,0 +1,265 @@
+body {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    background-color: #090215;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > * {
+        width: 1100px;
+    }
+    > section {
+        margin-bottom: 70px;
+    }
+}
+
+ul > li {
+    list-style: none;
+    display: inline-grid;
+}
+
+#logo {
+    position: absolute;
+    width: 65px;
+    height: 77.79px;
+    left: 0px;
+    top: 0px;
+}
+
+.header {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language,
+.links {
+    display: flex;
+}
+
+.app-store {
+    margin-right: 10px;
+    width: 185.33px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.google-play {
+    margin-right: 10px;
+    width: 208.23px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.language img {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50%;
+    background-size: cover;
+    width: 33px;
+    height: 33px;
+    margin: 0px 5px;
+}
+
+.language .ru {
+    border: 3px solid #7c40ff;
+}
+
+.nav-item {
+    margin: 0px 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #7c40ff;
+    transition-duration: 0.1s;
+}
+
+h1 {
+    color: #7c40ff;
+}
+
+p,
+h2 {
+    color: #fff;
+}
+
+.menu h1 {
+    font-size: 5em;
+    /* line-height: 5em; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu p {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 31.2px;
+    margin-bottom: 40px;
+}
+
+.menu {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#main-image {
+    position: absolute;
+    top: -3%;
+    right: 11%;
+    z-index: -1;
+    width: 1127.88px;
+    height: 1062.36px;
+}
+
+.scroll_down {
+    width: 84.24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    /* margin-bottom: 100px; */
+    img {
+        width: 84.24px;
+        height: 99.12px;
+    }
+}
+
+#about > .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 310px;
+    height: 425px;
+    padding: 20px;
+}
+
+.side-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 29.2617px;
+
+    #about_laptop {
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    #about_lock {
+        width: 50%;
+        margin-top: 0;
+        margin-left: 45%;
+    }
+}
+
+.middle-box {
+    background: #7c40ff;
+    border-radius: 29.2617px 29.2617px 29.2617px 195.078px;
+
+    #about_megaphone {
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+}
+
+.card-name {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.head {
+    font-size: 2.5em;
+    width: 100%;
+}
+
+.md-3 {
+    display: flex;
+    > div {
+        margin: 0 10px;
+    }
+}
+
+#left-bloom {
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+    z-index: -1;
+    width: 21%;
+}
+
+#middle-bloom {
+    position: absolute;
+    top: 1500px;
+    left: 25%;
+    z-index: -1;
+    width: 50%;
+}
+
+#right-bloom {
+    position: absolute;
+    top: 1650px;
+    right: 0%;
+    z-index: -1;
+    width: 23%;
+}
+
+#road-map {
+    border-radius: 60px;
+    height: 600px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.05);
+    background-image: url(resources/start/road.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    #point1 {
+        top: 10%;
+        left: 2.5%;
+    }
+
+    #point2 {
+        top: 55%;
+        left: 27.5%;
+    }
+
+    #point3 {
+        bottom: 20%;
+        left: 52.5%;
+    }
+
+    #point4 {
+        top: 25%;
+        left: 77.5%;
+    }
+}
+
+.road-point {
+    width: 20%;
+    font-size: 0.9em;
+    position: relative;
+    text-align: center;
+}
